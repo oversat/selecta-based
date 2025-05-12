@@ -3,20 +3,20 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Privacy Policy",
   description:
-    "Find out how your personal information is collected, used, and disclosed when you use Selecta",
+    "Find out how your personal information is collected, used, and disclosed when you use CrateJL",
   openGraph: {
     title: "Privacy Policy",
     description:
-      "Find out how your personal information is collected, used, and disclosed when you use Selecta",
-    images: ["https://selecta.ciaran.co.za/api/og?title=Privacy"],
+      "Find out how your personal information is collected, used, and disclosed when you use CrateJL",
+    images: ["https://cratejl.ciaran.co.za/api/og?title=Privacy"],
   },
   twitter: {
     creator: "@parabyl",
     card: "summary_large_image",
     title: "Privacy Policy",
     description:
-      "Find out how your personal information is collected, used, and disclosed when you use Selecta",
-    images: ["https://selecta.ciaran.co.za/api/og?title=Recommendations"],
+      "Find out how your personal information is collected, used, and disclosed when you use CrateJL",
+    images: ["https://cratejl.ciaran.co.za/api/og?title=Recommendations"],
   },
 };
 
@@ -27,8 +27,8 @@ export default function PrivacyPage() {
       <p className="font-bold text-shell-500">Effective Date: 01 June 2023</p>
       <p>
         This Privacy Policy describes how your personal information is
-        collected, used, and disclosed when you use the Selecta App (“Selecta”).
-        By using Selecta, you consent to the practices described in this Privacy
+        collected, used, and disclosed when you use the CrateJL App (“CrateJL”).
+        By using CrateJL, you consent to the practices described in this Privacy
         Policy.
       </p>
       <h2 id="collection-of-information">1. Collection of Information</h2>
@@ -56,9 +56,9 @@ export default function PrivacyPage() {
         >
           privacy-first analytics
         </a>{" "}
-        to gather usage information about Selecta. This may include collecting
+        to gather usage information about CrateJL. This may include collecting
         non-personally identifiable information such as device information,
-        session duration, and interactions within Selecta. This data is
+        session duration, and interactions within CrateJL. This data is
         collected to improve the overall user experience and understand user
         preferences better.
       </p>
@@ -66,21 +66,21 @@ export default function PrivacyPage() {
       <h3 id="email-information-1">2.1 Email Information</h3>
       <p>
         Your email address is solely used for login purposes and to facilitate
-        communication regarding your account or any updates related to Selecta.
+        communication regarding your account or any updates related to CrateJL.
         We do not use your email address for marketing purposes or share it with
         any third parties.
       </p>
       <h3 id="recommendation-settings-1">2.2. Recommendation Settings</h3>
       <p>
         The information stored in the Vercel-managed Redis instance is used
-        solely to provide you with personalized recommendations within Selecta.
+        solely to provide you with personalized recommendations within CrateJL.
         We do not use this information for any other purpose or share it with
         any third parties.
       </p>
       <h3 id="analytics-1">2.3. Analytics</h3>
       <p>
         The analytics data collected is used to analyze user behavior and
-        preferences within Selecta. This information helps us improve Selecta’s
+        preferences within CrateJL. This information helps us improve CrateJL’s
         functionality and enhance the overall user experience. The analytics
         data is used in an aggregated and anonymized form, and no personally
         identifiable information is associated with it.
@@ -91,8 +91,8 @@ export default function PrivacyPage() {
         You have the right to request the deletion of your recommendation
         settings data stored in our Vercel-managed Redis instance at any time.
         To initiate the deletion process, please send an email to{" "}
-        <a href="mailto:selecta@ciaran.co.za" target="_blank">
-          selecta@ciaran.co.za
+        <a href="mailto:cratejl@ciaran.co.za" target="_blank">
+          cratejl@ciaran.co.za
         </a>{" "}
         containing your Spotify ID. Upon receiving your request, we will
         promptly delete the corresponding recommendation settings data from our
@@ -113,20 +113,20 @@ export default function PrivacyPage() {
         We may update this Privacy Policy from time to time. The most current
         version will always be posted on this page with the effective date. We
         encourage you to review this Privacy Policy periodically for any
-        changes. Your continued use of Selecta after any modifications to the
+        changes. Your continued use of CrateJL after any modifications to the
         Privacy Policy constitutes your acceptance of those changes.
       </p>
       <h2 id="contact-us">Contact Us</h2>
       <p>
         If you have any questions or concerns regarding this Privacy Policy or
         our privacy practices, please contact us at{" "}
-        <a href="mailto:selecta@ciaran.co.za" target="_blank">
-          selecta@ciaran.co.za
+        <a href="mailto:cratejl@ciaran.co.za" target="_blank">
+          cratejl@ciaran.co.za
         </a>
         .
       </p>
       <p>
-        By using Selecta, you acknowledge that you have read and understood this
+        By using CrateJL, you acknowledge that you have read and understood this
         Privacy Policy and agree to the collection, use, and disclosure of your
         personal information as described herein.
       </p>

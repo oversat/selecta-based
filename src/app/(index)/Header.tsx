@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Header() {
   return (
     <>
-      <h1>💽 Selecta</h1>
+      <h1>💽 CrateJL</h1>
       <p className="text-sm text-shell-500">
         Tune the dials to find the tracks you didn&apos;t know you were looking
         for.

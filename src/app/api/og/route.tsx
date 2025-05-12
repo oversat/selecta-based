@@ -8,7 +8,7 @@ export async function GET(request: Request) {
     const hasTitle = searchParams.has("title");
     const title = hasTitle
       ? searchParams.get("title")?.slice(0, 100)
-      : "Selecta";
+      : "CrateJL";
     const dmSans = fetch(
       new URL("../../../../assets/DMSans-Regular.ttf", import.meta.url)
     ).then((res) => res.arrayBuffer());

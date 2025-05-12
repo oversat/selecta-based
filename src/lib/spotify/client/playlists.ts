@@ -23,7 +23,7 @@ const Create = async (
 ): Promise<Playlist> =>
   await spotifyFetch<Playlist>(URLS.Playlists.Create(input), token, "POST", {
     name: input.name,
-    description: "Created by selecta.ciaran.co.za",
+    description: "Created by CrateJL",
     public: false,
     collaborative: false,
   });

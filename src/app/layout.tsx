@@ -16,29 +16,29 @@ const dmsans = DM_Sans({
 
 export const metadata: Metadata = {
     title: {
-        default: "Selecta",
-        template: "%s | Selecta",
+        default: "CrateJL",
+        template: "%s | CrateJL",
     },
     description: "Find tracks on Spotify you didn't know you were looking for.",
-    metadataBase: new URL("https://selecta.ciaran.co.za"),
+    metadataBase: new URL("https://cratejl.ciaran.co.za"),
     openGraph: {
-        siteName: "Selecta",
+        siteName: "CrateJL",
         title: {
-            default: "Selecta",
-            template: "%s | Selecta",
+            default: "CrateJL",
+            template: "%s | CrateJL",
         },
         description: "Find tracks on Spotify you didn't know you were looking for.",
-        images: ["https://selecta.ciaran.co.za/api/og?title=Selecta"],
+        images: ["https://cratejl.ciaran.co.za/api/og?title=CrateJL"],
     },
     twitter: {
         creator: "@parabyl",
         card: "summary_large_image",
         title: {
-            default: "Selecta",
-            template: "%s | Selecta",
+            default: "CrateJL",
+            template: "%s | CrateJL",
         },
         description: "Find tracks on Spotify you didn't know you were looking for.",
-        images: ["https://selecta.ciaran.co.za/api/og?title=Selecta"],
+        images: ["https://cratejl.ciaran.co.za/api/og?title=CrateJL"],
     },
 };
 

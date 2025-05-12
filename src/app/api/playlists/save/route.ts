@@ -8,7 +8,7 @@ export async function POST(req: NextRequest) {
   const session = (await getServerSession(authOpts)) as CustomSession;
   const token = getSessionToken(session);
   const { data } = await req.json();
-  const playlistName = `Selecta (${new Date().toLocaleString()})`;
+  const playlistName = `CrateJL (${new Date().toLocaleString()})`;
   const userID = session.user.id;
 
   if (!userID) {

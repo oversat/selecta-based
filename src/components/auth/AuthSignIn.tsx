@@ -11,11 +11,11 @@ export default function AuthSignIn() {
           Welcome to
           <br />
           <span className="text-4xl font-bold text-transparent md:text-6xl bg-gradient-to-br bg-clip-text from-coral-600 to-shell-300">
-            Selecta
+            CrateJL
           </span>
         </h1>
         <p className="max-w-md">
-          Selecta is a way to place a special order with Spotify, and fine-tune
+          CrateJL is a way to place a special order with Spotify, and fine-tune
           the dials to find the tracks you didn&apos;t know you were looking
           for.
         </p>

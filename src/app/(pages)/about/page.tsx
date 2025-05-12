@@ -5,40 +5,39 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "About",
-  description: "Learn about Selecta and how it works.",
+  description: "Welcome to CrateJL.",
   openGraph: {
     title: "About",
-    description: "Learn about Selecta and how it works.",
-    images: ["https://selecta.ciaran.co.za/api/og?title=About"],
+    description: "CrateJL is a private DJ app",
+    images: ["https://cratejl.ciaran.co.za/api/og?title=About"],
   },
   twitter: {
     creator: "@parabyl",
     card: "summary_large_image",
     title: "About",
-    description: "Learn about Selecta and how it works.",
-    images: ["https://selecta.ciaran.co.za/api/og?title=Recommendations"],
+    description: "CrateJL is a private DJ app",
+    images: ["https://cratejl.ciaran.co.za/api/og?title=Recommendations"],
   },
 };
 
 export default async function AboutPage() {
   return (
     <>
-      <h1>What is Selecta?</h1>
+      <h1>What is CrateJL?</h1>
       <p>
-        Selecta is an app designed to enhance your Spotify experience. Spotify
-        is huge - it&apos;s home to over{" "}
+        CrateJL is a private DJ app. It&apos;s home to over{" "}
         <a href="https://newsroom.spotify.com/company-info/" target="_blank">
           100 million songs
         </a>{" "}
         and if you&apos;re a regular user, you know just how good it is at
         finding tracks you love. Just the sort you&apos;d like to stumble across
-        on your own. That&apos;s where Selecta comes in. Selecta is a way to
+        on your own. That&apos;s where CrateJL comes in. CrateJL is a way to
         place a special order with Spotify, and fine-tune the dials to find the
         tracks you didn&apos;t know you were looking for.
       </p>
       <ExampleTrack />
       <h2>How do I use it?</h2>
-      <p>Using Selecta is pretty simple.</p>
+      <p>Using CrateJL is pretty simple.</p>
       <ol>
         <li>
           <p>
@@ -77,18 +76,13 @@ export default async function AboutPage() {
         add it to your selections (top right). The{" "}
         <Button type="button" text="💾 Save Playlist" disabled={false} /> button
         will save your selections to a playlist on your profile titled{" "}
-        <span className="font-medium">{`Selecta (${new Date().toLocaleString()})`}</span>
+        <span className="font-medium">{`CrateJL (${new Date().toLocaleString()})`}</span>
       </p>
       <p>
         We also have a <Link href="/privacy">Privacy Policy</Link> available so
         you can understand how your data is and isn&apos;t used in the app.
       </p>
       <hr className="my-12" />
-      <p className="text-center">
-        <a href="https://ciaran.co.za" target="_blank">
-          Made with ♥️ by Ciarán
-        </a>
-      </p>
     </>
   );
 }
