@@ -14,30 +14,30 @@
 
 @layer components {
   ::-webkit-scrollbar {
-    @apply w-2 bg-shell-200;
+    @apply w-2 bg-slate-100; /* Lighter track */
   }
 
   ::-webkit-scrollbar-thumb {
-    @apply shadow-lg rounded-md bg-shell-300;
+    @apply shadow-lg rounded-md bg-slate-400; /* Darker thumb for better contrast */
   }
 
   input[type="range"] {
-    @apply bg-transparent border-2 rounded-full appearance-none border-shell-300;
+    @apply bg-transparent border-2 rounded-full appearance-none border-slate-300; /* Neutral border */
   }
 
   input[type="range"]::-webkit-slider-runnable-track {
-    @apply rounded-full bg-shell-200;
+    @apply rounded-full bg-slate-200; /* Neutral track */
   }
 
   input[type="range"]::-webkit-slider-thumb {
-    @apply w-4 h-4 border-2 rounded-full appearance-none bg-shell-700 active:scale-90 active:bg-shell-500 transition-all duration-150;
+    @apply w-4 h-4 border-2 rounded-full appearance-none bg-sky-500 active:scale-90 active:bg-sky-600 transition-all duration-150; /* Accent color for thumb */
   }
 
   input[type="checkbox"] {
-    @apply w-2 h-2 border rounded appearance-none border-shell-300 bg-shell-50 checked:bg-coral-300 active:bg-coral-500 disabled:hidden transition-all duration-150;
+    @apply w-2 h-2 border rounded appearance-none border-slate-300 bg-white checked:bg-sky-500 active:bg-sky-400 disabled:hidden transition-all duration-150; /* Neutral border, white base, accent for checked/active */
   }
 
   hr {
-    @apply inline-block my-2;
+    @apply inline-block my-2 border-t border-slate-200; /* Subtle line color */
   }
 }
